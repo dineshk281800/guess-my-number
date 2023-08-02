@@ -121,3 +121,16 @@ h1{
   margin-bottom: 0.1rem;
   color: #eee;
 }
+
+@media (max-width:550px){
+  h1{
+    font-size: 3.8rem;
+  }
+  .between{
+    top: 85%;
+    left: 40%;
+  }
+  html{
+    font-size: 57%;
+  }
+}
