@@ -133,4 +133,8 @@ h1{
   html{
     font-size: 57%;
   }
+  .bottom{
+    width: 48rem;
+    font-size:2.5rem;
+  }
 }
