@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Guess my number</title>
+  <!-- custom css -->
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- material icon css -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Guess My Number</h1>
+    <p class="between">(Range 1 to 20)</p>
+    <button class="btn btn-again" id="btn-again"><i class="material-icons">autorenew</i></button>
+  </header>
+  <main>
+    <div class="top">
+      <p class="message" id="message">Start Guessing...</p>
+    </div>
+    <section class="center">
+      <input type="number" class="guess" id="guess"/>
+      <button class="btn btn-check" id="btn-check">Guess</button>
+    </section>
+    <div class="bottom">
+      <p class="label-score">💯 Score: <span class="score" id="score">20</span></p>
+      <p class="label-highscore">
+        High Score: <span class="highscore" id="high-score">0</span>
+      </p>
+    </div>
+  </main>
+
+  <!-- custom script -->
+  <script src="/js/script.js"></script>
+</body>
+</html>
